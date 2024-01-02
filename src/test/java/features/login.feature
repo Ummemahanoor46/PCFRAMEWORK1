@@ -1,5 +1,6 @@
 Feature: User Login
 
+  @smoke
   Scenario: Successful Login
     Given the user is on the login page
     When the user enters valid username and password
